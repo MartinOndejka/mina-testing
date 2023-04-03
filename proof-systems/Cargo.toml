@@ -1,0 +1,12 @@
+[package]
+name = "proof-systems"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+mina-hasher = { git = "https://github.com/o1-labs/proof-systems", version = "0.1.0" }
+mina-signer = { git = "https://github.com/o1-labs/proof-systems", version = "0.1.0" }
+num-bigint = "0.4.3"
+o1-utils = { git = "https://github.com/o1-labs/proof-systems", version = "0.1.0" }
